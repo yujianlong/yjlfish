@@ -1,9 +1,16 @@
 main:
-  - title: "Posts"
+  - title: "首页1"
+    url: /home/
+  - title: "图文"
+    url: /portfolio/
+  - title: "Splash Page"
+    url: /splash-page/
+  - title: "年份分类"
     url: /posts/
-  - title: "Categories"
+  - title: "种类分类"
     url: /categories/
-  - title: "Tags"
+  - title: "标签分类"
     url: /tags/
-  - title: "About"
+  - title: "关于"
     url: /about/
+ 
