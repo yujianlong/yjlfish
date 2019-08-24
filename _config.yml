@@ -13,6 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+accesscode: d7f0da07cb9aa70754b34c67dac2b165
+git_clientID: 69c4b1c338a110da7b3d
+git_clientSecret: a37990b6f679699007daf41d5c2599dc6dd9481b
 title: 健龙
 title_separator          : "-"
 subtitle: "心若在梦就在重头再来"
