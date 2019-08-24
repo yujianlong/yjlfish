@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 accesscode: d7f0da07cb9aa70754b34c67dac2b165
-git_clientID: 876de75b78c3c8b6c5f5
-git_clientSecret: b01b3377eae4c66b43b7b7c7287165bb46b2056d
+git_clientID: c26dc816284fad9da56b
+git_clientSecret: 1a47f63f9fcf0969d77db4fe76c49052210b6aa2
 title: 健龙
 title_separator          : "-"
 subtitle: "心若在梦就在重头再来"
