@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+ <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
 <script type="text/javascript">
@@ -8,7 +8,7 @@
   clientSecret: '{{site.git_clientSecret}}', // GitHub Application Client Secret
   repo: 'yujianlong.github.io',     // 存放评论的仓库
   owner: 'yujianlong',          // 仓库的创建者，
-  admin: ['yujianlong'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
+  admin: ['yujianlong','yjlfish'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
   id: location.pathname,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
   distractionFreeMode: true
 });
@@ -19,5 +19,6 @@ window.onhashchange = function(event){
       }
     }
 </script>
+
 
 
