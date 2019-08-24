@@ -1,6 +1,6 @@
 main:
   - title: "首页1"
-    url: /home/
+    url: /myhome/
   - title: "图文"
     url: /portfolio/
   - title: "Splash Page"
