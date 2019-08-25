@@ -5,11 +5,11 @@ main:
     url: /resume3/
   - title: "图文"
     url: /portfolio/
-  - title: "年份分类"
+  - title: "年度"
     url: /posts/
-  - title: "种类分类"
+  - title: "类别"
     url: /categories/
-  - title: "标签分类"
+  - title: "标签"
     url: /tags/
   - title: "关于"
     url: /about/

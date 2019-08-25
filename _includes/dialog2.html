@@ -26,7 +26,7 @@
 </div>
 
 <script>  
-var accesscode="{{site.accesscode}}";
+    var accesscode=['{{ site.accesscode | join: "','" }}'];
     var myModal_1_obj = artModal({  //构建artModal实例
             element: document.getElementById('secretdialog'),
             open: function () {
@@ -53,7 +53,7 @@ var accesscode="{{site.accesscode}}";
               var yqcodeValue=$("#yqcode").val();
                     if(yqcodeValue == null || yqcodeValue == "" || yqcodeValue == "undefined" || yqcodeValue == undefined || yqcodeValue == "null"){
                         $("#errtip").html("访问密码不能为空");
-                    }else if(md5(yqcodeValue)!=accesscode){
+                     }else if(accesscode.indexOf(md5(yqcodeValue))<0){
                         $("#errtip").html("访问密码不正确");
                     }else{
                         myModal_1_obj.close();  //关闭
@@ -64,7 +64,7 @@ var accesscode="{{site.accesscode}}";
                     if(yqcodeValue == null || yqcodeValue == "" || yqcodeValue == "undefined" || yqcodeValue == undefined || yqcodeValue == "null"){
                       $("#errtip").html("访问密码不能为空");
 
-                    }else if(md5(yqcodeValue)!=accesscode){
+                     }else if(accesscode.indexOf(md5(yqcodeValue))<0){
                         $("#errtip").html("访问密码不正确");
                     }else{ 
                       $("#errtip").html("验证码不匹配");

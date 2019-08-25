@@ -13,7 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-accesscode: d7f0da07cb9aa70754b34c67dac2b165
+accesscode: 
+  - 38121c9dfbb6abcd77dcb5e6de09b2b0
+  - 97bc41f93d79935fb5aebb75796914dd
+  - be8ebd6bbb936358874217fa2fbd4976
+  - e8fe09e9f2d583bd79105cf8c6c02353
+  - e2ccd756268006f13ef2b7e9354c05fc
+  - 98aac297ec0b14916c4adfbf02e5ee9a
+  - 4a4088d838c914b7c7357d26b9b2c3d1
+  - af5e1a4397220ecff160e38041b1a1df
+#accesscode: d7f0da07cb9aa70754b34c67dac2b165
 git_clientID: c26dc816284fad9da56b
 git_clientSecret: 1a47f63f9fcf0969d77db4fe76c49052210b6aa2
 title: 健龙
@@ -151,34 +160,38 @@ whitelist:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "于健龙"
   avatar : "/assets/images/headpic.png"
   bio    : "青山依旧在coding，几度夕阳红bug。"
   links:
-    - label: "Website"
+    - label: "主页"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://yujianlong.top"
+    - label: "邮箱"
+      icon: "fab fa-fw fa-envelope-o"
+      url: "mailto:yjl_yujianlong@126.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/yujianlongyjl"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/yjlfish"
+    - label: "facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/yjl.yujianlong"
+
 
 footer:
   links:
+    - label: "邮箱"
+      icon: "fab fa-fw fa-envelope-o"
+      url: "mailto:yjl_yujianlong@126.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/yujianlongyjl"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/yjlfish"
 
 defaults:
   # _posts
