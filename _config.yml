@@ -28,7 +28,7 @@ git_clientSecret: 1a47f63f9fcf0969d77db4fe76c49052210b6aa2
 title: 健龙
 title_separator          : "-"
 subtitle: "心若在梦就在重头再来"
-name                     : "Your Name"
+name                     : "于健龙"
 description              :  "Minimal Mistakes theme test."
 logo: "/assets/images/timg.png"
 url                      : "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
